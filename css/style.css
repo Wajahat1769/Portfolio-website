@@ -640,3 +640,27 @@ header{
     height: 190px;
 }
 }
+#timetable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#timetable th, #timetable td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+#timetable th {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+#timetable td:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.act{
+  background-color: pink;
+}
